@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Interno</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
@@ -26,10 +30,6 @@
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
-      <div class="lang-actions">
-        <button class="btn btn-outline">EN</button>
-      </div>
-    </div>
   </header>
 
   <main>
@@ -37,16 +37,14 @@
       <div class="container hero-grid">
         <div class="hero-left">
           <h1>Let's Create Your<br>Dream Interior</h1>
-          <p class="lead">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">Get Started</a>
-          </div>
+          <p class="lead">The world needs innovators and problem solvers who turn challenges into greater opportunities.
+          </p>
+          <a href="#contact" class="btn-get-started">
+            Get Started
+            <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
         </div>
-        <div class="hero-right">
-          <div class="hero-image-wrap">
-            <img src="./images/room.webp" alt="Cozy living room" loading="lazy">
-          </div>
-        </div>
+      </div>
       </div>
     </section>
     <section id="services" class="services container">
@@ -68,43 +66,51 @@
         </article>
       </div>
     </section>
-    <section id="about" class="about container">
-      <div class="about-grid">
+    <section id="about" class="about">
+      <div class="container about-grid">
         <div class="about-text">
           <h2>We Tackle The Most Challenging Designs</h2>
-          <p>The world needs innovators and problem solvers who turn challenges into greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.</p>
+          <p>
+            The world needs innovators and problem solvers who turn challenges into greater opportunities.
+            We have an insatiable curiosity about transformative trends challenging the status.
+          </p>
+
           <div class="contact-box">
-            <div class="phone"> 
-              <i class="fa-solid fa-phone"></i> 
-              <span>012345678</span> 
-              <small>Call Us Anytime</small>
+            <div class="phone">
+              <div class="icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="phone-info">
+                <span class="num">012345678</span>
+                <small>Call Us Anytime</small>
+              </div>
             </div>
-            <a class="btn btn-secondary" href="#contact">Get Free Estimate</a>
+            <a href="#contact" class="btn-free">Get Free Estimate</a>
           </div>
         </div>
+
         <div class="about-image">
-          <img src="./images/kitchen.webp" alt="Kitchen interior" loading="lazy">
+          <img src="./images/kitchen.webp" alt="Modern kitchen interior" loading="lazy">
         </div>
       </div>
     </section>
+
     <section class="testimonials container">
       <div class="testimonials-inner">
         <h3>What the People Thinks About Interno</h3>
         <div class="test-cards">
           <div class="test-card">
-            <img src="images/avatar1.jpg" alt="client"/>
+            <img src="#" alt="client" />
             <h5>Lisa Charlton</h5>
             <small>New York, USA</small>
             <p>We selected Interno interior because of rigorous design background & education.</p>
           </div>
           <div class="test-card">
-            <img src="images/avatar2.jpg" alt="client"/>
+            <img src="#" alt="client" />
             <h5>David Knight</h5>
             <small>Sydney, Australia</small>
             <p>The team exceeded our expectations and emerged as leaders of our projects.</p>
           </div>
           <div class="test-card">
-            <img src="images/avatar3.jpg" alt="client"/>
+            <img src="#" alt="client" />
             <h5>Lisa Charlton</h5>
             <small>Paris, France</small>
             <p>They balanced the architectural vision and the project real files beautifully.</p>
@@ -115,7 +121,8 @@
 
     <section id="projects" class="projects container">
       <h3>Recent Projects</h3>
-      <p class="muted">With tools to make every part of your process more human and a support team excited to help you, getting started with us has never been easier.</p>
+      <p class="muted">With tools to make every part of your process more human and a support team excited to help you,
+        getting started with us has never been easier.</p>
 
       <div class="projects-grid">
         <div class="project">
@@ -225,4 +232,5 @@
     <div class="copyright">© Copyright Interno | Designed by You</div>
   </footer>
 </body>
+
 </html>
